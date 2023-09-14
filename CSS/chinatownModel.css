@@ -1,0 +1,119 @@
+header{
+    /* Cor da NavBar */
+    background-color: #337d26;
+}
+
+.main-chinatown{
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-chinatown-baner-preto{
+    width: 100%;
+    height: 50vh;
+    background-color: #00000067;
+    position: absolute;
+}
+
+.main-chinatown-baner{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images/chinatown.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-chinatown-baner > h1{
+    width: 40%;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.main-chinatown-sobre{
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-chinatown-sobre-titulo{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-chinatown-sobre-titulo > h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.main-chinatown-sobre-sessao{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-chinatown-sobre-sessao-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-chinatown-sobre-sessao-img-circulo{
+    width: 57%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Cor dos circulos */
+    background-color: #337d26;
+}
+
+
+.main-chinatown-sobre-sessao-img-circulo > img{
+    width: 98%;
+    height: 98%;
+}
+
+.main-chinatown-sobre-sessao-texto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-chinatown-sobre-sessao-texto > p {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

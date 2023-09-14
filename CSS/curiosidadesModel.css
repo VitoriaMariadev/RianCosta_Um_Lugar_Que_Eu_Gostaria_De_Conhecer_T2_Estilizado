@@ -1,0 +1,96 @@
+.main-curiosidades{
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-curiosidades-baner-preto{
+    width: 100%;
+    height: 50vh;
+    background-color: #00000067;
+    position: absolute;
+}
+
+.main-curiosidades-baner{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images//jardins\ luxuriantes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-curiosidades-baner > h1{
+    width: 60%;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.main-curiosidades-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-curiosidades-container-divisao{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-curiosidades-container-divisao > h3{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.main-curiosidades-container-divisao-circulo{
+    width: 60%;
+    height: 30%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-curiosidades-container-divisao-circulo > img{
+    width: 95%;
+    height: 95%;
+}
+
+.main-curiosidades-container-texto{
+    width: 80%;
+    height: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.main-curiosidades-container-texto > ul{
+    width: 80%;
+    height: 90%;
+}
+
+.main-curiosidades-container-texto > ul > li{
+    margin-bottom: 3%;
+}

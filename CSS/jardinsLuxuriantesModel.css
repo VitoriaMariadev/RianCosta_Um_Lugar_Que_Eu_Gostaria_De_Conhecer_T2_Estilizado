@@ -1,0 +1,133 @@
+header{
+    /* Cor da NavBar */
+    background-color: #213d1b; 
+}
+
+.opcoes > ul > li:hover ul{
+    width: 35%;
+    height: 220%;
+
+    /* Cor do drop menu */
+    background-color: #385a2f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -220%;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-jardins{
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-jardins-baner-preto{
+    width: 100%;
+    height: 50vh;
+    background-color: #00000067;
+    position: absolute;
+}
+
+.main-jardins-baner{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images//jardins\ luxuriantes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-jardins-baner > h1{
+    width: 50%;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.main-jardins-sobre{
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-jardins-sobre-titulo{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-jardins-sobre-titulo > h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.main-jardins-sobre-sessao{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-jardins-sobre-sessao-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-jardins-sobre-sessao-img-circulo{
+    width: 57%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Cor dos circulos */
+    background-color: #131e10;
+}
+
+
+.main-jardins-sobre-sessao-img-circulo > img{
+    width: 98%;
+    height: 98%;
+}
+
+.main-jardins-sobre-sessao-texto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-jardins-sobre-sessao-texto > p {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

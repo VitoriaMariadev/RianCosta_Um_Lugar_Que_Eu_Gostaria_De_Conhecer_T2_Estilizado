@@ -1,0 +1,179 @@
+.main-cultura{
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.main-cultura-baner-preto{
+    width: 100%;
+    height: 50vh;
+    background-color: #00000067;
+    position: absolute;
+}
+
+.main-cultura-baner{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images//jardins\ luxuriantes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-cultura-baner > h1{
+    width: 60%;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.main-cultura-section{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-cultura-section > h1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    animation: aparecer-texto 0.8s ease-out;
+}
+
+.main-cultura-section-container{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-cultura-section-container-circulo-maior{
+    width: 38%;
+    height: 65%;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 7%;
+    animation: circulo-maior 0.7s ease-out;
+}
+
+.main-cultura-section-container-circulo-maior > img{
+    width: 95%;
+    height: 95%;
+}
+
+.main-cultura-section-container-circulo{
+    width: 30%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    border-radius: 50%;
+    animation: circulo-menor 0.7s ease-out;
+}
+
+.main-cultura-section-container-texto{
+    width: 70%;
+    height: 28%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    animation: aparecer-texto 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width: 65%;
+    height: 1px;
+    background-color: #000;
+}
+
+.main-cultura-section-container-circulo-maior-contario{
+    width: 38%;
+    height: 65%;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 0%;
+    right: 7%;
+    animation: circulo-menor 0.7s ease-out;
+}
+
+.main-cultura-section-container-circulo-maior-contario > img{
+    width: 95%;
+    height: 95%;
+}
+
+.main-cultura-section-container-circulo-contrario{
+    width: 30%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    border-radius: 50%;
+    animation: circulo-maior 0.7s ease-out;
+}
+
+.main-cultura-section-container-circulo-contrario > img{
+    width: 95%;
+    height: 95%;
+}
+
+@keyframes circulo-maior {
+    0%{
+        left: -30%;
+
+    }
+
+    100%{
+        left: 7%;
+    }
+}
+
+@keyframes circulo-menor {
+    0%{
+        right: -30%;
+
+    }
+
+    100%{
+        right: 7%;
+    }
+}
+
+@keyframes aparecer-texto {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }   
+}
