@@ -298,6 +298,7 @@ hr{
 .historia-textos > p {
     width: 80%;
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 @keyframes drop {
