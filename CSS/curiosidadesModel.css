@@ -56,7 +56,7 @@ header > .opcoes > ul > li:hover ul{
 
 .main-curiosidades-container{
     width: 100%;
-    height: 100vh;
+    height: 265vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,16 +64,16 @@ header > .opcoes > ul > li:hover ul{
 
 .main-curiosidades-container-divisao{
     width: 25%;
-    height: 90%;
+    height: 95%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
 }
 
 .main-curiosidades-container-divisao > h3{
     width: 100%;
-    height: 6%;
+    height: 4%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ header > .opcoes > ul > li:hover ul{
 
 .main-curiosidades-container-divisao-circulo{
     width: 60%;
-    height: 30%;
+    height: 12%;
     background-color: black;
     border-radius: 50%;
     display: flex;
@@ -94,6 +94,7 @@ header > .opcoes > ul > li:hover ul{
 .main-curiosidades-container-divisao-circulo > img{
     width: 95%;
     height: 95%;
+    border-radius: 50%;
 }
 
 .main-curiosidades-container-texto{
