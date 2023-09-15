@@ -285,6 +285,21 @@ hr{
     font-weight: 800;
 }
 
+.historia-textos{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.historia-textos > p {
+    width: 80%;
+    font-size: 1.4rem;
+}
+
 @keyframes drop {
     0%{
         height: 0%;
