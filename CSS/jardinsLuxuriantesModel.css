@@ -1,6 +1,6 @@
 header{
     /* Cor da NavBar */
-    background-color: #213d1b; 
+    background-color: #0b1f08; 
 }
 
 .opcoes > ul > li:hover ul{
@@ -17,6 +17,10 @@ header{
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.opcoes > ul > li > a:hover{
+    border-bottom: solid 3px #aaff00;
+}
+
 .main-jardins{
     width: 100%;
     height: auto;
@@ -25,6 +29,9 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #1C1C1C;
+    color: #aaff00;
+    font-style: italic;
 }
 
 .main-jardins-baner-preto{

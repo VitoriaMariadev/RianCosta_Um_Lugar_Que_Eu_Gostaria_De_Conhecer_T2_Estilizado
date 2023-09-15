@@ -1,3 +1,18 @@
+header{
+    /* Cor da NavBar */
+    background-color: #00008B; 
+}
+
+header > .opcoes > ul > li:hover ul{
+    /* Cor do drop menu */
+    background-color: #0000FF;
+
+}
+
+.opcoes > ul > li > a:hover{
+    border-bottom: solid 3px #0000FF;
+}
+
 .main-curiosidades{
     width: 100%;
     height: auto;
@@ -6,6 +21,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #1C1C1C;
+    color: #0000FF;
 }
 
 .main-curiosidades-baner-preto{
@@ -61,6 +78,7 @@
     align-items: center;
     justify-content: center;
     letter-spacing: 2px;
+    font-size: 1.5rem;
 }
 
 .main-curiosidades-container-divisao-circulo{
@@ -84,6 +102,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    font-size: 1.3rem;
 }
 
 .main-curiosidades-container-texto > ul{

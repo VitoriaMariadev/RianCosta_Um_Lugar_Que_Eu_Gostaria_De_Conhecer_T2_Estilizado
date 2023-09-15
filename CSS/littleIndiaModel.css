@@ -1,6 +1,16 @@
 header{
     /* Cor da NavBar */
-    background-color: #213d1b; 
+    background-color: #D2691E; 
+}
+
+header > .opcoes > ul > li:hover ul{
+    /* Cor do drop menu */
+    background-color: #eb7928;
+
+}
+
+.opcoes > ul > li > a:hover{
+    border-bottom: solid 3px #ff6a00;
 }
 
 .opcoes > ul > li:hover ul{
@@ -25,6 +35,9 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #1C1C1C;
+    color: #FF4500;
+    
 }
 
 .main-india-baner-preto{
@@ -103,7 +116,7 @@ header{
     align-items: center;
     justify-content: center;
     /* Cor dos circulos */
-    background-color: #131e10;
+    background-color: #D2691E;
 }
 
 
