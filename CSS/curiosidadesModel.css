@@ -84,7 +84,7 @@ header > .opcoes > ul > li:hover ul{
 .main-curiosidades-container-divisao-circulo{
     width: 60%;
     height: 12%;
-    background-color: black;
+    background-color: #C71585; 
     border-radius: 50%;
     display: flex;
     align-items: center;

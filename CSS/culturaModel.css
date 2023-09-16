@@ -97,6 +97,10 @@ header > .opcoes > ul > li:hover ul{
     top: 0;
     left: 7%;
     animation: circulo-maior 0.7s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .main-cultura-section-container-circulo-maior > img{
@@ -114,6 +118,9 @@ header > .opcoes > ul > li:hover ul{
     right: 7%;
     border-radius: 50%;
     animation: circulo-menor 0.7s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-cultura-section-container-circulo > img{
@@ -149,6 +156,9 @@ hr{
     top: 0%;
     right: 7%;
     animation: circulo-menor 0.7s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-cultura-section-container-circulo-maior-contario > img{
@@ -166,6 +176,9 @@ hr{
     left: 7%;
     border-radius: 50%;
     animation: circulo-maior 0.7s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-cultura-section-container-circulo-contrario > img{
