@@ -89,6 +89,13 @@ header > .opcoes > ul > li:hover ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.main-curiosidades-container-divisao-circulo:hover{
+    width: 83%;
+    height: 18%;
+    transition: 0.3s ease-in;
 }
 
 .main-curiosidades-container-divisao-circulo > img{
