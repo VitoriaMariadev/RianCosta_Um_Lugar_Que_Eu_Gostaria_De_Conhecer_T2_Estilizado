@@ -1,16 +1,16 @@
 header{
     /* Cor da NavBar */
-    background-color: #00008B; 
+    background-color: #C71585; 
 }
 
 header > .opcoes > ul > li:hover ul{
     /* Cor do drop menu */
-    background-color: #0000FF;
+    background-color: #DB7093;
 
 }
 
 .opcoes > ul > li > a:hover{
-    border-bottom: solid 3px #0000FF;
+    border-bottom: solid 3px #DB7093;
 }
 
 .main-curiosidades{
@@ -22,7 +22,7 @@ header > .opcoes > ul > li:hover ul{
     align-items: center;
     flex-direction: column;
     background-color: #1C1C1C;
-    color: #0000FF;
+    color: #DB7093;
 }
 
 .main-curiosidades-baner-preto{
