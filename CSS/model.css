@@ -301,7 +301,7 @@ hr{
     text-align: justify;
 }
 
-@keyframes drop {
+@keyframes drop { 
     0%{
         height: 0%;
         opacity: 0;
