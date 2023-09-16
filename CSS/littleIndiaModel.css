@@ -97,6 +97,7 @@ header > .opcoes > ul > li:hover ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .main-india-sobre-sessao-img{
@@ -109,7 +110,7 @@ header > .opcoes > ul > li:hover ul{
 }
 
 .main-india-sobre-sessao-img-circulo{
-    width: 57%;
+    width: 28%;
     height: 90%;
     border-radius: 50%;
     display: flex;
@@ -117,7 +118,19 @@ header > .opcoes > ul > li:hover ul{
     justify-content: center;
     /* Cor dos circulos */
     background-color: #D2691E;
+    position: absolute;
 }
+
+#circulo-direito{
+    left: 10%;
+    animation: circulo-direito 0.7s ease-in-out;
+}
+
+#circulo-esquerdo{
+    left: 60%;
+    animation: circulo-esqerdo 0.7s ease-in-out;
+}
+
 
 
 .main-india-sobre-sessao-img-circulo > img{
@@ -144,4 +157,35 @@ header > .opcoes > ul > li:hover ul{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
+    animation:  aparecerTexto 0.7s ease-in-out;
+}
+
+@keyframes circulo-direito {
+    0%{
+        left: -100%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes circulo-esqerdo {
+    0%{
+        left: 200%;
+    }
+    
+    100%{
+        left: 60%;
+    }
+}
+
+@keyframes aparecerTexto {
+    0%{
+        opacity: 10%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
 }
